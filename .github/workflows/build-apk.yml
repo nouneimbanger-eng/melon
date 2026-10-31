@@ -24,7 +24,7 @@ jobs:
           gradle-version: '8.2.1'
 
       - name: Extract project
-        run: unzip -o Melo.zip -d .
+        run: unzip -o Melo-media.zip -d .
 
       - name: Fix launcher icon
         run: sed -i 's/android:icon="@mipmap\/ic_launcher"//g' Melo/app/src/main/AndroidManifest.xml
